@@ -71,9 +71,10 @@ ol {
 }
 .result__video-container {
   min-width: 711px;
+  height: 386px;
   overflow-x: auto;
   position: relative;
-  padding-bottom: 12px;
+  bottom: 12px;
 }
 
 .content__details {
