@@ -53,6 +53,7 @@ ol {
   align-items: flex-end;
   justify-content: center;
   gap: 30px;
+  padding-top: 104px;
 }
 .result {
   display: flex;
