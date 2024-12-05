@@ -72,6 +72,7 @@ ol {
 .result__video-container {
   min-width: 711px;
   overflow-x: auto;
+  position: relative;
   padding-bottom: 12px;
 }
 
