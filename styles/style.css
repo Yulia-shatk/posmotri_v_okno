@@ -47,7 +47,7 @@ ol {
 }
 
 .content {
-  margin: 263px 30px;
+  margin: 133px 30px;
   display:flex;
   flex-direction: row;
   align-items: flex-end;
@@ -184,7 +184,7 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding-top: 2px
+  padding-top: 3px;
 }
 
 }
