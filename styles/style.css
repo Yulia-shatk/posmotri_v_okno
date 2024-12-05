@@ -59,10 +59,9 @@ ol {
 }
 
 .result__video {
-  height: 376px;
-  inline-size: 100%;
-  object-fit: cover;
-  margin-bottom: 16px;
+    min-width: 711px;
+    height: 386px;
+    overflow-x: auto;
 }
 .search-form {
   display: flex;
@@ -70,14 +69,17 @@ ol {
   justify-content: space-between;
   align-items: flex-start;
 }
-
+.result__video-container {
+  min-width: 711px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
 
 .content__details {
   block-size: 100%;
   inline-size: 100%;
   padding-top: 16px;
 }
-
 
 .content__video-card {
   display: grid;
@@ -106,11 +108,7 @@ ol {
 .content__video-card-description-container {
   padding-top: 2px;
 }
-.result__video-container {
-  min-width: 711px;
-  position: relative;
-  overflow-x: auto;
-}
+
 .content__list {
   max-height: 298px;
   overflow: auto;
