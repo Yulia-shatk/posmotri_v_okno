@@ -52,6 +52,7 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   gap: 30px;
+  padding-top: 133px;
 }
 .result {
   display: flex;
