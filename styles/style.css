@@ -48,13 +48,12 @@ ol {
 }
 
 .content {
-  margin: 133px 30px;
-  display:flex;
+  margin: auto 30px;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: center;
   gap: 30px;
-  padding-top: 104px;
+  padding-top: 133px;
 }
 .result {
   display: flex;
